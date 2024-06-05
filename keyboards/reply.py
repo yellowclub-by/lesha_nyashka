@@ -16,10 +16,13 @@ start_kb = ReplyKeyboardMarkup(
     input_field_placeholder='Что вы хотите увидеть?'
 
 )
+
+back_btn = KeyboardButton(text="назад")
+
 menu_kb = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text='моржёное'),
+            KeyboardButton(text='мороженое'),
             KeyboardButton(text='сыр'),
             KeyboardButton(text='тварог')
         ],
@@ -27,6 +30,9 @@ menu_kb = ReplyKeyboardMarkup(
             KeyboardButton(text='сырки'),
             KeyboardButton(text='молоко'),
             KeyboardButton(text='кефир')
+        ],
+        [
+            back_btn
         ]
     ],
     resize_keyboard=True,
