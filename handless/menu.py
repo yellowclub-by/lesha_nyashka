@@ -32,4 +32,4 @@ async def menu_milk(message: types.Message):
 @menu_router.message(F.text.lower() == "кефир")
 async def menu_milk(message: types.Message):
     photo = FSInputFile('images\menu\кефир.png')
-    await message.answer_photo(photo, caption="ГОварвар")
+    await message.answer_photo(photo, caption="ГОварлвар")
