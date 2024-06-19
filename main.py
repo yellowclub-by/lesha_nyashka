@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher
 
 TOKEN = "7125759779:AAFJ8kSj09MrCSwlqRy_zyNtSwqObRiMNbA"
 
-bot = Bot(token=TOKEN)
+bot = Bot(token=TOKEN, parse_mode="HTML")
 dp = Dispatcher()
 
 from handless.user_privat import user_router
