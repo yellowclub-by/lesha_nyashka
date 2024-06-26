@@ -4,11 +4,12 @@ start_kb = ReplyKeyboardMarkup(
     keyboard=[
         [
             KeyboardButton(text='Меню 📖'),
-            KeyboardButton(text='Адрес 🅿️')
+            KeyboardButton(text='О нас 👥')
+
         ],
         [
             KeyboardButton(text='Контакты 🎮'),
-            KeyboardButton(text='О нас 👥')
+            KeyboardButton(text='Адрес 🅿️')
         ]
     ],
 
@@ -24,7 +25,7 @@ menu_kb = ReplyKeyboardMarkup(
         [
             KeyboardButton(text='мороженое 🍧'),
             KeyboardButton(text='сыр 🧀'),
-            KeyboardButton(text='тварог 🪨')
+            KeyboardButton(text='творог 🪨')
         ],
         [
             KeyboardButton(text='сырки 🍫'),

@@ -5,11 +5,9 @@ from aiogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 def addresses_kb():
     builder = InlineKeyboardBuilder()
     builder.row(
-        InlineKeyboardButton(text="Адрес 1️⃣",callback_data='addresses_1'),
-        InlineKeyboardButton(text='Адреc 2️⃣',callback_data='addresses_2'),
-        InlineKeyboardButton(text='Адрес 3️⃣',callback_data='addresses_3'),
-        InlineKeyboardButton(text='Адрес 4️⃣',callback_data='addresses_4'),
-        width=2
+        InlineKeyboardButton(text="проспект Пушкина 66, Минск",callback_data='addresses_1'),
+        InlineKeyboardButton(text='улица Солтыса 185, Минск',callback_data='addresses_2'),
+        width=1
 
     )
     return builder.as_markup()
